@@ -25,12 +25,6 @@ The model is trained on a synthetic clinical dataset of 7,488 patient records en
 3. **Validation:** 5-Fold Stratified Cross-Validation to ensure mathematical stability (Mean XGBoost Accuracy: 98.42% ±0.0021).
 4. **Explainable AI (XAI):** Implemented TreeExplainer SHAP to calculate the marginal contribution of every feature, enabling both global feature importance ranking and local directional impact analysis (Beeswarm plots).
 
-## 📂 Repository Structure
-```text
-├── data/                   # Dataset (CSV)
-├── visuals/                # Exported SHAP plots (Global Importance, Beeswarm, etc.)
-├── frailty_ml_paper.pdf    # Final IEEE formatted research paper 
-└── README.md               # Project documentation
 
 ```
 
